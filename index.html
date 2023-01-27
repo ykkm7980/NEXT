@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>넥스트레벨</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/favicon.png" type="imga/icon">
+
+    <!-- fullpage.css연결 -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="js/jquery-3.6.2.js"></script>
+
+    <!-- fullpage.js연결 -->
+    <script src="js/jquery.fullPage.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- 제이쿼리 사용자파일 / 무조건 라이브러리 먼저 입력 후 사용자 파일 입력 -->
+    <script src="js/nextlevel.js"></script>
+    <!-- --------------연결-------------------- -->
+</head>
+<body>
+    <header>
+        <!-- 로고 -->
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </div>
+        <!-- 글로벌 내in비게이션(전체 메뉴) -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">주문하기</a>
+                    <ul class="sub">
+                        <div class="sub_title">주문하기</div>
+
+                        <div class="sub_menu">
+                            <li><a href="#">차량번호로찾기</a></li>
+                            <li><a href="#">차종으로찾기</a></li>
+                            <li><a href="#">사이즈로찾기</a></li>
+                        </div>
+                        <div class="sub_img">
+                            <img src="img/sub3.png" alt="서브배경">
+                        </div>
+                    </ul>
+                    
+                </li>
+
+                <li>
+                    <a href="#">혜택/서비스</a>
+                    <ul class="sub">
+                        <div class="sub_title">혜택/서비스</div>
+
+                        <div class="sub_menu">
+                            <li><a href="#">O2O서비스</a></li>
+                            <li><a href="#">렌탈서비스</a></li>
+                            <li><a href="#">보증제도안내</a></li>
+                        </div>
+
+                        <div class="sub_img">
+                            <img src="img/sub3.png" alt="서브배경">
+                        </div>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">뉴스/이벤트</a>
+                    <ul class="sub">
+                        <div class="sub_title">뉴스/이벤트</div>
+
+                        <div class="sub_menu">
+                            <li><a href="#">NEWS&TIP</a></li>
+                            <li><a href="#">이벤트</a></li>
+                        </div>
+
+                        <div class="sub_img">
+                            <img src="img/sub3.png" alt="서브배경">
+                        </div>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객지원</a>
+                    <ul class="sub">
+                        <div class="sub_title">고객지원</div>
+
+                        <div class="sub_menu">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자주묻는 질문</a></li>
+                            <li><a href="#">상담하기</a></li>
+                        </div>
+
+                        <div class="sub_img">
+                            <img src="img/sub3.png" alt="서브배경">
+                        </div>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">마이페이지</a>
+                    <ul class="sub">
+                        <div class="sub_title">마이페이지</div>
+
+                        <div class="sub_menu">
+                            <li><a href="#">나의 주문내역</a></li>
+                            <li><a href="#">나의 렌탈관리</a></li>
+                            <li><a href="#">나의 쿠폰</a></li>
+                        </div>
+
+                        <div class="sub_img">
+                            <img src="img/sub3.png" alt="서브배경">
+                        </div>
+
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- 로그인과 조인 햄버거 -->
+        <div class="right_menu">
+            <div class="member">
+                <ul>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#">JOIN</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <img src="img/ham-1.png" alt="햄버거메뉴">
+                </a>
+            </div>
+        </div>
+
+    
+    </header>
+    <div class="wrap" id="fullpage">
+        <!-- .section(pc버전 fullpage에서 사용) -->
+        <section class="section main_slide">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main">
+                        <div class="main_inner1">
+                            <div class="main_txt">
+                                <h3>안전주행을 위한</h3>
+                                <h3>대한민국 No.1 타이어</h3>
+                                <h3>NEXTLEVEL</h3>
+                            </div>
+                            <div class="main_img">
+                                <a href="#">
+                                    <img src="img/main_tire1.png" alt="타이어1">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide main">
+                        <div class="main_inner2">
+                            <div class="main_txt">
+                                <h3>대한민국 No.1 타이어</h3>
+                                <h3>전국 방문교체 실시</h3>
+                                <h3>NEXTLEVEL</h3>
+                            </div>
+                            <div class="main_img">
+                                <a href="#">
+                                    <img src="img/main_tire2.png" alt="타이어2">
+                                </a>
+                            </div>
+                        </div>  
+                    </div>
+                    
+                    <div class="swiper-slide main">
+                        <div class="main_inner3">
+                            <div class="main_txt">
+                                <h3>겨울용 No.1 타이어</h3>
+                                <h3>이제 눈길 걱정 STOP</h3>
+                                <h3>NEXTLEVEL</h3>
+                                
+                            </div>
+                            <div class="main_img">
+                                <a href="#">
+                                    <img src="img/main_tire3.png" alt="타이어1">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="section product">
+            <h1>PRODUCT</h1>
+            <!-- 탭메뉴 -->
+            <div class="tab">
+                
+                <div class="tab_title">
+                    <ul>
+                        <li class="active"><a href="#">NEW</a></li>
+                        <li class=><a href="#">BEST</a></li>
+                    </ul>
+                </div>
+                <!-- 탭내용 -->
+                <div class="tab_con">
+                    <div class="tab_con1">
+                    <!-- new product slide -->
+                        <div class="swiper new_product">
+                            <div class="swiper-wrapper">
+                            
+                                <div class="swiper-slide">
+                                    <div class="con_inner">
+                                        <div class="product_txt">
+                                            <h1>NPRIZ AH8</h1>
+                                            <h2>214/45R17</h2>
+                                            <h3>뛰어난 저소음의 사계절 타이어</h3>
+                                        </div>
+                                        <div class="product_img">
+                                            <a href="#">
+                                                <img src="img/product_tire1.png" alt="타이어1">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+
+                                <div class="swiper-slide">
+                                    <div class="con_inner">
+                                        <div class="product_txt">
+                                            <h1>NFERA GP5</h1>
+                                            <h2>204/45R17</h2>
+                                            <h3>전기차 전용 사계절 타이어</h3>
+                                        </div>
+                                        <div class="product_img">
+                                            <a href="#">
+                                                <img src="img/product_tire2.png" alt="타이어2">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="con_inner">
+                                        <div class="product_txt">
+                                            <h1>NFERA CH1</h1>
+                                            <h2>215/35R12</h2>
+                                            <h3>명차가 선택한 스포츠 타이어</h3>
+                                        </div>
+                                        <div class="product_img">
+                                            <a href="#">
+                                                <img src="img/product_tire3.png" alt="타이어3">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="con_inner">
+                                        <div class="product_txt">
+                                            <h1>NFERA 21F</h1>
+                                            <h2>215/34R12</h2>
+                                            <h3>안전성을 강화한 올웨더 타이어</h3>
+                                        </div>
+                                        <div class="product_img">
+                                            <a href="#">
+                                                <img src="img/product_tire4_8.png" alt="타이어4">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="con_inner">
+                                        <div class="product_txt">
+                                            <h1>NFERA F3F</h1>
+                                            <h2>215/34R12</h2>
+                                            <h3>프리미엄을 넘어선 특별한 가치</h3>
+                                        </div>
+    
+                                        <div class="product_img">
+                                            <a href="#">
+                                                <img src="img/product_tire5_10.png" alt="타이어1">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="tab_con1">
+                    <!-- best product slide -->
+                    <div class="swiper best_product">
+                        <div class="swiper-wrapper">
+                        
+                            <div class="swiper-slide">
+                                <div class="con_inner">
+                                    <div class="product_txt">
+                                        <h1>NFERA 61H</h1>
+                                        <h2>205/31R12</h2>
+                                        <h3>고성능 타이어의 완벽한 균형점</h3>
+                                    </div>
+    
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="img/product_tire6.png" alt="타이어6">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="con_inner">
+                                    <div class="product_txt">
+                                        <h1>NFERA 91C</h1>
+                                        <h2>205/34R12</h2>
+                                        <h3>노면 성능 간 최적의 균형 달성</h3>
+                                    </div>
+    
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="img/product_tire7.png" alt="타이어7">
+                                        </a>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="con_inner">
+                                    <div class="product_txt">
+                                        <h1>ROADIAN3</h1>
+                                        <h2>215/35R12</h2>
+                                        <h3>카메이커가 인정한 저소음 타이어</h3>
+                                    </div>
+    
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="img/product_tire4_8.png" alt="타이어8">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="con_inner">
+                                    <div class="product_txt">
+                                        <h1>NFERA G65</h1>
+                                        <h2>215/48R17</h2>
+                                        <h3>저소음,안전까지 갖춘 컴포트 타이어</h3>
+                                    </div>
+                                    
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="img/product_tire9.png" alt="타이어9">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="con_inner">
+                                    <div class="product_txt">
+                                        <h1>NFERAAUS</h1>
+                                        <h2>215/34R12</h2>
+                                        <h3>겨울철 주행을 위한 최고의 선택</h3>
+                                    </div>
+    
+                                    <div class="product_img">
+                                        <a href="#">
+                                            <img src="img/product_tire5_10.png" alt="타이어10">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- <section class="event_news"> -->
+            <!-- & : &amp; / 띠어쓰기 : &nbsp; / > : &gt; / < : &lt; -->
+            
+            <section class="section event">
+                <h1>EVENT &amp; NEWS</h1>
+                <div class="event_title">
+                    <h2>EVENT</h2>
+                </div>
+                <div class="event_banner">
+                    <div class="swiper eventslide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                   <div class= "event_img event1"></div>
+                                    <div class="event_txt">
+                                        <p>타이어 1+1 득템 이벤트</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class= "event_img event2"></div>
+                                    <div class="event_txt">
+                                        <p>블랙프라이데이 이벤트</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class= "event_img event3"></div>
+                                    <div class="event_txt">
+                                        <p>포토 리뷰 작성 이벤트</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class= "event_img event4"></div>
+                                    <div class="event_txt">
+                                        <p>할인권 룰렛 이벤트</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </section> 
+            <section class="section news">
+                <div class="news_title">
+                    <h2>NEWS</h2>
+                </div>
+                <div class="news_inner">
+                    <div class="news2">
+                        <div class="banner">
+                            <img src="img/news-1.png" alt="뉴스이미지">
+                            <div class="new_txt">
+                                <h1>NEWS</h1>
+                                <p>넥스트레벨, 여려분의 애마에 딱 맞는 넥센타이어, 지금 찾아보세요!</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="news2">
+                        <div class="banner">
+                            <img src="img/news-1.png" alt="뉴스이미지">
+                            <div class="new_txt">
+                                <h1>NEWS</h1>
+                                <p>하이패스 카드부터 자주 묻는 Q&A까지, 하이패스의 모든 것!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="button">
+                        <p>ALL News</p>
+                    </div>
+                </div>
+            </section>   
+        <!-- </section> -->
+        <section class="section video">
+            <h1>NEXTLEVEL VIDEO</h1>
+            <!-- 글자이동 -->
+            <div class="marquee">
+                <div class="marquee_box">
+                    <span>스마트 컨슈머를 위해 비대면 장착이 가능한 O2O서비스 런칭</span>
+                    <span>스마트 컨슈머를 위해 비대면 장착이 가능한 O2O서비스 런칭</span>
+                </div>
+            </div>
+            <div class="youtube"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/m8EdnoN8jro" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        
+        <section class="section follow">
+            <h1>FOLLOW US</h1>
+            <h2>@nextlevelkorea</h2>
+
+            <div class="follow_inner">
+                <div class="item"><a href="#"><img src="img/follow1.png" alt="팔로우1"></a></div>
+                <div class="item"><a href="#"><img src="img/follow2.png" alt="팔로우2"></a></div>
+                <div class="item"><a href="#"><img src="img/follow3.png" alt="팔로우3"></a></div>
+                <div class="item"><a href="#"><img src="img/follow4.png" alt="팔로우4"></a></div>
+                <div class="item"><a href="#"><img src="img/follow5.png" alt="팔로우5"></a></div>
+                <div class="item"><a href="#"><img src="img/follow6.png" alt="팔로우6"></a></div>
+
+            </div>
+
+        </section>
+        <footer class="section fp-auto-height">
+            <!-- 흐르는 글자 -->
+            <div class="marquee">
+                <div class="marquee_box">
+                    <span>스마트 컨슈머를 위해 비대면 장착이 가능한 O2O서비스 런칭</span>
+                    <span>스마트 컨슈머를 위해 비대면 장착이 가능한 O2O서비스 런칭</span>
+                </div>
+            </div>
+            <div class="f_wrap">
+                <div class="f_top">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">기업소개</a></li>
+                        <li><a href="#">렌트안내</a></li>
+
+                    </ul>
+                </div>
+                <div class="f_bottom">
+                    <div class="f_logo">
+                        <img src="img/logo.png" alt="로고">
+                    </div>
+                    <div class="icon">
+                        <ul>
+                            <li><a href="#"><img src="img/facebook_icon.png" alt="페이스북"></a></li>
+                            <li><a href="#"><img src="img/youtube_icon.png" alt="유튜브"></a></li>
+                            <li><a href="#"><img src="img/blogger_icon.png" alt="블로그"></a></li>
+                        </ul>
+                    </div>
+                    <address>
+                        경상남도 양산시 충렬로 355 넥센타이어 <br> 주식회사 대표이사 강호찬 <br> 사업자등록번호 621-81-10769 <br> 통신판매업신고번호 제2015-경남양산-0139호
+                    </address>   
+                    
+        
+                </div>    
+            </div>
+            <div class="copyright">
+                Copyright ⓒ 2019 NEXTLEVEL. all rights reserved.
+            </div>
+        </footer>
+
+
+        
+    </div>
+    <!-- 햄버거 메뉴 누르면 나오는 2차원 메뉴 -->
+    <div class="popup_menu">
+        <!-- 닫기 -->
+        <div class="close_btn">
+            <a href="#">
+                <img src="img/x_icon.png" alt="x">
+            </a>
+        </div>
+        <h3>로그인하신 후 더 많은 <br> 넥스트레벨의 소식을 만나보세요!</h3>
+        <div class="buttons">
+            <ul>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="popup_nav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">주문하기</a>
+                        <ul class="sub">
+                            <li><a href="#">차량번호로찾기</a></li>
+                            <li><a href="#">차종으로찾기</a></li>
+                            <li><a href="#">사이즈로찾기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">혜택/서비스</a>
+                        <ul class="sub">
+                            <li><a href="#">O2O서비스</a></li>
+                            <li><a href="#">렌탈서비스</a></li>
+                            <li><a href="#">보증제도안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">뉴스/이벤트</a>
+                        <ul class="sub">
+                            <li><a href="#">NEWS&TIP</a></li>
+                            <li><a href="#">이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">고객지원</a>
+                        <ul class="sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자주묻는 질문</a></li>
+                            <li><a href="#">상담하기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">마이페이지</a>
+                        <ul class="sub">
+                            <li><a href="#">나의 주문내역</a></li>
+                            <li><a href="#">나의 렌탈관리</a></li>
+                            <li><a href="#">나의 쿠폰</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="popup_follow">
+            <h4>Follow Us</h4>
+            <div class="popup_sns">
+                <ul>
+                    <li><a href="#"><img src="img/facebook_icon.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="img/youtube_icon.png" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="img/blogger_icon.png" alt="블로그"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
